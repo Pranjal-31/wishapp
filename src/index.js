@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { BsClockFill } from "react-icons/bs";
 
-let name ="pranjal";
+let name ="Pranjal";
 
 let greeting ="";
 
@@ -31,7 +31,8 @@ else {
 
 ReactDOM.render(
   <div className="img">
-    <h1 style={{fontSize:30}} > Good {greeting} {name}. </h1><br></br>
+    <h2> Good {greeting} {name}. </h2>
+    <br></br>
     <div className="time-wrap">
     {hr}:{min}
     <br/>
